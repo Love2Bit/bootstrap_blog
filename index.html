@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+
+    <title>Hello, world!</title>
+    <style>
+        #overview{
+            background-image: url(asset/image/nisekoi.png);
+            background-size: cover;
+        }
+        @media (max-width: 575.98px){
+            #overview-image{
+                display: none;
+            }
+            .container-fluid{
+                box-sizing: content-box;
+            }
+            #navigation{
+                display: none;
+            }
+            #description h1{
+                font-size: 1.2rem;
+            }
+            .list-article h2{
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+  </head>
+  <body>
+      <!-- block header -->
+      <div class="container">
+          <div class="row" id="header">
+            <div id="logo" class="col-6">
+                <a href="index.html">
+                    <img src="asset/image/bash logo.jpg" alt="logo" style="height: 40px; width: 40px; margin-left: 20px;">
+                </a>
+            </div>
+            <div id="navigation" class="col-6">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#" >Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#" >About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#" >Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase text-dark" href="#" >Services</a>
+                    </li>
+            </div>
+        </div>
+
+      </div>
+    <!-- block overview -->
+       <div id="overview" class="container-fluid">
+        <div class="row">
+        <div id="description" class="col-6 pl-5 pt-2">
+            <h1 class="text-light">Belajar jadi mudah bersama kami, segera bergabung</h1>
+            <p class="text-light">Dapatkan beberapa keuntungan pertama</p>
+            <a class="btn btn-light mb-2" href="#">Bergabung</a>
+        </div>
+        <div id="overview-image" class="col-6">
+            <img src="asset/image/astro.png" alt="overview" width="500px">
+        </div>
+        </div>
+        
+    </div>
+    <!-- block article -->
+    <div class="container" id="article">
+        <div class="row">
+            <div id="content" class="col-sm-8">
+                <div class="list-article mt-5" id="artikel-1">
+                    <img class="img-fluid" src="asset/image/Wallpaper.jpeg" alt="JustAo">
+                    <a href="#">Artikel</a>
+                    <div id="author">
+                        <img class="rounded-circle float-left" width="48" src="asset/image/jusAo2_noBD.jpg" alt="JustAoA">
+                        <p class="float-left pt-3 pl-2">JustAo 4 September 2020</p>
+                        <div class="clearfix"></div>
+                    </div>
+                    <h2 class="display-4">Perkembangan Teknologi</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus obcaecati ipsam quis veritatis eum necessitatibus voluptas, libero in corrupti, excepturi vitae delectus nemo aperiam ab qui molestiae dignissimos fuga similique.</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+            </div>
+            <div id="sidebar" class="col-sm-4 mt-5">
+                <ul class="list-group">
+                    <li class="list-group-item" id="artikel-1"><a href="#artikel-1">Perkembangan Teknologi</a></li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+    <!-- block footer -->
+    <div class="container-fluid mt-5 bg-secondary">
+        <div class="row">
+            <div class="col-sm-3 pr-3">
+                <h2 class="text-white">Tentang Loker</h2>
+                <p>Pionir istilah loker identik dengan lowongan kerja, situs loker.id hadir sejak 2007 mempermudah cari pekerjaan dan perekrutan karyawan.</p>
+
+                    <p>Pemasangan Iklan:
+                    Telp / SMS / WA : 082114553331
+                    (Mon - Sat, 8:30am - 5:30pm)
+                    Email: info@loker.id</p>
+            </div>
+            <div class="col-sm-3">
+                <h2 class="text-white">Tentang Kami</h2>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-secondary border-0">Hubungi Kami</li>
+                    <li class="list-group-item bg-secondary border-0">Pusat Bantuan</li>
+                    <li class="list-group-item bg-secondary border-0">Logo</li>
+                    <li class="list-group-item bg-secondary border-0">Kebijakan Privasi</li>
+                    <li class="list-group-item bg-secondary border-0">Kondisi dan Ketentuan</li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h2 class="text-white">Pencari Kerja</h2>
+                <ul class="list-group list-group-flush"></ul>
+                    <li class="list-group-item bg-secondary border-0">Registrasi Pencari Kerja</li>
+                    <li class="list-group-item bg-secondary border-0">Buat Resume Online</li>
+                    <li class="list-group-item bg-secondary border-0">Cari Lowongan Kerja</li>
+                    <li class="list-group-item bg-secondary border-0">Job Alerts</li>
+                    <li class="list-group-item bg-secondary border-0">Kategori Loker</li>
+                    <li class="list-group-item bg-secondary border-0">Tips Loker</li>
+            </div>
+            <div class="col-sm-3">
+                <h2 class="text-white">Perusahaan</h2>
+                <ul class="list-group list-group-flush"></ul>
+                <li class="list-group-item bg-secondary border-0">Registrasi Perusahaan</li>
+                <li class="list-group-item bg-secondary border-0">Pasang Lowongan</li>
+                <li class="list-group-item bg-secondary border-0">Produk</li>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="asset/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="asset/js/popper.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script>
+      x=document.getElementsByClassName("tes")[0];
+      y=x.parentNode.parentNode;
+      x.innerHTML=y.offsetWidth;
+    </script>
+  </body>
+</html>
+
+
