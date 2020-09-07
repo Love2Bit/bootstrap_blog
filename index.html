@@ -64,7 +64,7 @@
        <div id="overview" class="container-fluid">
         <div class="row">
         <div id="description" class="col-6 pl-5 pt-2">
-            <h1 class="text-light">Belajar jadi mudah bersama kami, segera bergabung</h1>
+            <h1 >Belajar jadi mudah bersama kami, segera bergabung</h1>
             <p class="text-light">Dapatkan beberapa keuntungan pertama</p>
             <a class="btn btn-light mb-2" href="#">Bergabung</a>
         </div>
@@ -150,7 +150,12 @@
     <script src="asset/js/botstrap.min.js"></script>
     <script>
         $(document).ready(function(){
-            alert("tes");
+            $("#overview").click(function(){
+                $("#description h1").css('color','red');
+
+                // alert('po');
+            });
+            // $("#description").css('color','red');
         });
     </script>
   </body>
